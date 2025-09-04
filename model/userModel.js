@@ -14,6 +14,7 @@ const users = [
     favorecidos: [ 'julio' ], 
     saldo: 10000
   }
+  
 ];
 
 module.exports = {
