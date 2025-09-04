@@ -25,6 +25,9 @@ jobs:
     - name: Subir a API 
       run: npm start &
 
+    - name: Subir a API GraphQL
+      run: npm run start-graphql &
+
     - name: Esperar a API estar Funcionando
       run: sleep 20
     
